@@ -9,13 +9,6 @@ const {
   GraphQLList
 } = require('graphql')
 
-/*
-const x = fetch(
-  'https://www.goodreads.com/author/show.xml?id=4432&key=UgTHOJzWqY9lt0L1vzPA'
-)
-.then(response => response.text())
-.then(parseXML)*/
-
 const BookType = new GraphQLObjectType({
   name: 'Book',
   description: '...',
